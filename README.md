@@ -46,7 +46,7 @@ for (int i=1; i<=9; i++) {
 - Output the shuffled (randomized) cards to a JavaFX Dialog.
 - Sort the cards.
 - Output the sorted cards to a JavaFX Dialog.
-  - You can find a detailed introduction to JavaFX Dialogs (here)[(https://code.makery.ch/blog/javafx-dialogs-official/]
+  - You can find a detailed introduction to JavaFX Dialogs [here](https://code.makery.ch/blog/javafx-dialogs-official/)
 
 ### Grading
 
