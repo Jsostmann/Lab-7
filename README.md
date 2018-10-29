@@ -47,6 +47,21 @@ for (int i=1; i<=9; i++) {
 - Sort the cards.
 - Output the sorted cards to a JavaFX Dialog.
   - You can find a detailed introduction to JavaFX Dialogs [here](https://code.makery.ch/blog/javafx-dialogs-official/)
+  
+In order to use a JavaFX Dialog, you must use the following format for your main class:
+```
+public class Lab8 extends Application {
+  public static void main(String[] args) {
+    Application.launch();
+  }
+  
+  public void start(Stage primaryStage) throws Exception {
+    //All main method code should go here
+  }
+}
+```
+
+This format is required because a JavaFX dialog needs a JavaFX Application to run within. We will go deeper into JavaFX Applications next lab.
 
 ### Grading
 
